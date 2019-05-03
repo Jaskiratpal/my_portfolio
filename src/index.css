@@ -12,3 +12,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.buttonLinks{
+  margin-right: 5px;
+}
+
+.btn-primary { 
+  color: #fdfdfde6 !important;  
+  background-color: #ffffff00 !important;
+  border-color: #fdfdfde6 !important;
+}
+
+.btn-primary:hover { 
+  color: #000000 !important; 
+  background-color: #fdfdfde6 !important;
+  border-color: #fdfdfde6 !important;
+}
+
+.mainJumbo{
+  background-image: url("/images/bg-code.png");
+  background-size: 150% 500%;
+  color: white;
+}
+
+.mainEducation{
+  height: 100px;
+}
+.bulldogsLogo{
+  background-image: url("/images/bulldogs.png");
+  background-size: 100% 100%; 
+}
+
+.faIcons{
+  color:white;  
+  margin-right: 15px;
+}
+
+.page-footer{
+  background-color: #212529;
+  color: white;
+}
