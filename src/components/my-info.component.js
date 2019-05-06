@@ -57,7 +57,7 @@ export default class MyInfo extends Component {
             <a href="https://github.com/Jaskiratpal/picross"><img class="card-img-top" src="images/picross.png" alt="Card image cap" /></a>
               <div class="card-body">
                 <a href="https://github.com/Jaskiratpal/picross"><h5 class="card-title">Picross</h5></a>
-                <h5>Back-End & Game Logic</h5>
+                <h5>Back-End and Game Logic</h5>
                 <p class="card-text">A puzzle game also know as nonogram where the goal is to discover all the tiles with the least amount of mistakes. Features multiple game modes, time trackers and a hi-score board.</p>
               </div>
               <div class="card-footer">
@@ -68,7 +68,7 @@ export default class MyInfo extends Component {
             <a href="https://github.com/Jaskiratpal/BFSMaze"><img class="card-img-top" src="images/card-img.png" alt="Card image cap" /></a>
               <div class="card-body">
                 <a href="https://github.com/Jaskiratpal/BFSMaze"><h5 class="card-title">Maze Game</h5></a>
-                <h5>Full-Stack</h5>
+                <h5>Game Logic and Controls</h5>
                 <p class="card-text">A maze game where the goal is to acquire the magical treasure chest before being consumed by enemy bats. Enemy AI pathing done using Breadth-first search.</p>
               </div>
               <div class="card-footer">

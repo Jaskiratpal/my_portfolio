@@ -9,9 +9,11 @@
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
     "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.1",
+    "react-responsive-carousel": "^3.1.49",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0"
   },
@@ -19,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 sync build/ s3://www.jas-singh.com",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 import 'font-awesome/css/font-awesome.min.css';
 import {Helmet} from "react-helmet";
 
@@ -22,7 +22,7 @@ class App extends Component {
           <div className="container">
             <a className="navbar-brand" href="/">J.S</a>
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item navHome active">
+              <li className="nav-item navHome">
                 <Link to="/" className="nav-link">Home</Link>
               </li>
               <li className="nav-item navProjects">
@@ -46,13 +46,6 @@ class App extends Component {
           <Route path="/contact" component={Connect} />
         </div>
         <br></br>
-        <footer className="page-footer font-small" >
-
-          <div className="footer-copyright text-center py-3">© 2018 Copyright
-    <a href="https://mdbootstrap.com/education/bootstrap/"></a>
-          </div>
-
-        </footer>
       </Router>
 
     );
