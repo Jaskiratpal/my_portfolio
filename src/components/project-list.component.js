@@ -21,7 +21,7 @@ export default class ProjectList extends Component {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="./images/ma-main.png"
+                  src="/images/ma-main.PNG"
                   alt="First slide"
                 />
                 <Carousel.Caption>
@@ -32,7 +32,7 @@ export default class ProjectList extends Component {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="./images/ma-profile.png"
+                  src="/images/ma-profile.PNG"
                   alt="Second slide"
                 />
 
@@ -43,7 +43,7 @@ export default class ProjectList extends Component {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="./images/ma-stats.png"
+                  src="/images/ma-stats.PNG"
                   alt="Third slide"
                 />
 
@@ -71,7 +71,7 @@ export default class ProjectList extends Component {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="./images/pr-main.png"
+                  src="/images/pr-main.PNG"
                   alt="First slide"
                 />
                 <Carousel.Caption>
@@ -82,7 +82,7 @@ export default class ProjectList extends Component {
               <Carousel.Item>
                 <img
                   className="d-block w-100"
-                  src="./images/pr-game.png"
+                  src="/images/pr-game.PNG"
                   alt="Second slide"
                 />
 

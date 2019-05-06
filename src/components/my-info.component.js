@@ -43,7 +43,7 @@ export default class MyInfo extends Component {
           <hr className="my-4"></hr>
           <div class="card-deck">
             <div class="card">
-            <a href="https://github.com/Jaskiratpal/myathelite"><img class="card-img-top" src="images/myathelite.png" alt="Card image cap" /></a>
+            <a href="https://github.com/Jaskiratpal/myathelite"><img class="card-img-top" src="images/myathelite.PNG" alt="Card image cap" /></a>
               <div class="card-body">
                 <a href="https://github.com/Jaskiratpal/myathelite" ><h5 class="card-title">MyAthelite</h5></a>
                 <h5>Full-Stack</h5>
